@@ -1,0 +1,1 @@
+console.log('sho');  //コンソールで「sho」と出力する。
