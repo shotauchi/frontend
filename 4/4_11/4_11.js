@@ -8,3 +8,8 @@ if (a > 'mom') {
 } else {
     console.log('a=' + a + 'April');    
 }
+
+let (mon= 2); 
+if (mon == 4) {
+    console.log('April');
+}

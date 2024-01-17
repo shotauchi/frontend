@@ -1,4 +1,4 @@
-let mon = 2;
+let mon = 4;
 switch (mon) {
     case 1:
         console.log('January'); 

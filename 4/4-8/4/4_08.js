@@ -8,3 +8,5 @@ if (a > 0) {
 } else {
     console.log('a=' + a + 'は、判定できません');    
 }
+
+let b = 1;
