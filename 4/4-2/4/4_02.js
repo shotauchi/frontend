@@ -1,15 +1,22 @@
-let a = 3;// 変数 a の型は？『整数型』
-let b = 5;// 変数 b の型は？『整数型』
-let c = a > b;// 変数 c の型は？『論理型』
+let a = 3;// 変数 a は、整数型
+let b = 5;// 変数 b は、整数型
+let c = a > b;// 変数 c は、整数型？文字列型？「配列」？それ以外？ が代入されている
+let array = ['WOMAN','MEN'];// 変数 array は配列が代入されている
 let d = 3.14;
 
-// if (a > b) {
-//     // 正しい＝真＝true？正しくない＝偽＝false？
-// }
+let x = 30;
+let y = '31';
+let z1 = x != y;
+let z2 = x === y;
 
-console.log(c);
-console.log(typeof(c));// 変数 c のデータ型は？『boolean＝論理型』と出力される
-console.log(typeof(a));// 変数 a のデータ型は？『number＝整数型』と出力される
+console.log(z1);// false -> true
+console.log(z2);// true  -> false
 
-console.log(d);
-console.log(typeof(d));// 変数 d のデータ型は？『＝』と出力される
+// console.log(c);// false
+// console.log(typeof(c));// boolean 真偽
+// console.log(array);// ['WOMAN', 'MEN']
+// console.log(typeof(array));// object
+// console.log(typeof(a));
+
+// console.log(d);
+// console.log(typeof(d));
