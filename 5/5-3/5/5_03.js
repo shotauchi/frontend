@@ -1,6 +1,13 @@
-let a = 5;
+// let a = 5;
 
-while(a < 5) {          // a = 5のため、条件が成立しない
-    console.log(a);
-    a = a + 1;
+// while(a < 5) {          
+//     console.log(a);
+//     a = a + 1;
+// }
+
+let s = 0;
+
+while(s > -2) {;
+    console.log(s);
+    s = s - 1;
 }

@@ -15,7 +15,7 @@ ops[2] = function(p1, p2) {
     return p;
 }
 
-// 関数の実行
+
 for (let i = 0; i < ops.length; i++) {
     console.log(ops[i](10, 20));
 }
