@@ -1,15 +1,12 @@
-let a = 'mom';
-if (a > 'mom') {
-    console.log('a=' + a + 'January'); 
-} else if (a < 0) {
-    console.log('a=' + a + 'February'); 
-} else if (a === 0) {
-    console.log('a=' + a + 'March'); 
-} else {
-    console.log('a=' + a + 'April');    
-}
+let a = 5;
+let b = 8;
 
-let (mon= 2); 
-if (mon == 4) {
-    console.log('April');
+if (a >= b) {
+    console.log('January'); 
+} else if (a > b) {
+    console.log('February'); 
+} else if (a < b) {
+    console.log('March'); 
+} else {
+    console.log('April');    
 }
