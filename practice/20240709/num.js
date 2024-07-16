@@ -48,11 +48,25 @@ console.log(divide);
 //Fさんは1000円の乗車券を購入しようと思い駅に行きました。ですがFさんは1500円の乗車券を買ってきてしまいました。
 //この出力が正しいか正しくないか出力して下さい。
 
-var ticket_1 = 1000;
-var ticket_2 = 1500;
-var ticket_1 = 'ture';
-var ticket_2 = 'false';
+// var ticket_1 = 1000;
+// var ticket_2 = 1500;
+var ticket_1 = true;
+var ticket_2 = false;
 
-console.log(false);
+console.log(ticket_1);//true
+console.log(typeof ticket_1);//true
+console.log(ticket_2);//false
+console.log(typeof ticket_2);//false
 
+// 目的地まで電車で移動するのに１０００円分のチャージが必要です
+// 現在 Fさんのsuica には９００円分チャージされています
+// Fさんは目的地まで到着することができるでしょうか？
+// 真偽値（true or false）で出力してみましょう
+
+var charge  = 1000;// 必要な運賃
+var suica   = 900;// 持っている金額
+var boolean = charge <= suica;// 到着できるかどうか？ true or false
+
+console.log(boolean);// 結果が自動的に出力される？
+console.log(typeof boolean);
 
