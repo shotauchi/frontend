@@ -55,9 +55,8 @@ var Pull        = allowance / (friends + game + eats);
 var upper_limit = 18000;
 var boolean     = Pull >= upper_limit;
 
-console.log(boolean);
+console.log(boolean);// false -> true
 console.log(typeof boolean);
-
 
 
 
