@@ -1,27 +1,19 @@
-//Iさんはお店で商品を管理するために型番を合わせて覚えることにしました。
-//商品1の型番はAAAで商品2の型番はBBBです。結合すると何という名前になるでしょうか？
+//Jさんはお土産を買うためにお店を調べると頭文字が同じ名前だったので2文字目まで確認することにしました。
+//お店1はABCDでお店2がACBDです。けっかはそれぞれ何という名前になるでしょうか？
 
-var Model_number1 = 'AAA';
-var Model_number2 = 'BBB';
-var macth         = Model_number1 + Model_number2;
+var store1 = 'ABCD';
+var store2 = 'ACBD';
 
-console.log(macth);
+console.log(store1.substring('0','2'));
+console.log(store2.substring('0','2'));
 
-//Jさんは会社の同じような名前の部署があるので分かりやすい様に頭文字を覚えることにしました。
-//部署1はAABで部署2はBAAです。それぞれ何という頭文字になるでしょうか？
+//Kさんは実家に土曜日に帰省する予定で計画を立てました。ですが急な予定が入って日曜日に帰省することにしました。
+//その場合どちらで最終的に帰省したでしょうか？
 
-var name1 = 'AAB';
-var name2 = 'BAA';
+var homecoming = 'Kさんは土曜日に帰省する';
 
-console.log(name1.substring('0','1'));
-console.log(name2.substring('0','1'));
+console.log(homecoming);
 
-//Kさんはよく食べに行く飲食店と新たに出来た飲食店の名前が紛らわしいので比べて覚えることにしました。
-//飲食店1の名前はCCCで飲食店2はCBCです。2文字目まで表示するとそれぞれ何と表示されるでしょうか？
+var change = homecoming.replace('土曜日','日曜日');
 
-var Restaurant1 ='CCC';
-var Restaurant2 ='CBC';
-
-console.log(Restaurant1.substring('0','2'));
-console.log(Restaurant2.substring('0','2'));
-
+console.log(change);

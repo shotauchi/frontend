@@ -1,90 +1,85 @@
-//Aさんは本屋さんで小説本900円、漫画650円、雑誌1400円をそれぞれ購入しました。
+//Aさんはドラッグストアで120円の絆創膏、シャンプー800円、リンス780円、石鹼400円を購入しました。
 //Aさんは合計でいくら購入したでしょうか？
 
-var novel    =  900;
-var comics   =  650;
-var magazine = 1400;
-var sum      = novel + comics + magazine;
+var bandage        = 120;
+var shampoo 　　　 = 800;
+var rinse          = 780;
+var stone_porridge = 400;
+var sum = bandage + shampoo + rinse + stone_porridge;
 
 console.log(sum);
 
-//Bさんはカタログギフトを買いに行きました。購入したのは、3000円、5000円、10000円のカタログギフトをそれぞれ2つずつ購入しました。
-//Bさんは合計でいくら購入したでしょうか？
+//BさんとCさんはレンタルサイクリング店へ行きました。そこでBさんは1日5000円、Cさんは1日4000円のレンタルを3日間しました。
+//BさんとCさんは合計でいくらかかったでしょうか？
 
-var catalog_gifts1 =   3000 + 3000;
-var catalog_gifts2 =   5000 + 5000;
-var catalog_gifts3 = 10000 + 10000;
-var sum2           = catalog_gifts1 + catalog_gifts2 + catalog_gifts3;
+var cycling1 = 5000;
+var cycling2 = 4000;
+var B_san    = cycling1 + 5000 + 5000;
+var C_san    = cycling2 + 4000 + 4000;
 
-console.log(sum2);
+console.log(B_san);
+console.log(C_san);
 
-//Cさんは所持金15000円で日帰り旅行に行きました。そこで交通費6000円、食費が3000円、入場料が3200円かかりました。
-//Cさんは何円使用したでしょうか？
+//Dさんは所持金5000円以内で雑貨屋さんで買い物をしました。買ったのは、300円の茶碗、400円のコップ、700円のプレートを購入しました。
+//Dさんは何円分購入したでしょうか？
 
-var money                   = 15000;
-var Transportation_expenses =  6000;
-var eat                     =  3000;
-var Admission_fee           =  3200;
-var pull                    = money - (Transportation_expenses + eat + Admission_fee);
+var money    = 5000;
+var tea_bowl =  300;
+var cup      =  400;
+var plate    =  700;
+var pull     = money - (tea_bowl + cup + plate);
 
-console.log(pull);
+//Eさんはジムに通っていてお店に買い物に行きました。買ったのは、プロテイン3000円、筋トレ器具類6000円、プロテインバー600円を購入しました。
+//Eさんは11000円持ってきていましたが何円使ったでしょうか？
 
-//Dさんはホームセンターでパーティション7000円、アクリル板3600円、アルコール消毒剤800円を2つそれぞれ購入しました。
-//Dさんは所持金を20000円持ってきていましたが何円使ったでしょうか？
-
-var partition            =  7000;
-var acrylic_board        =  3600;
-var alcohol_disinfectant =   800;
-var money2               = 20000;
-var pull2                = money2 - (partition + acrylic_board + alcohol_disinfectant);
+var protein                   =  3000;
+var muscle_training_equipment =  6000;
+var protein_var               =   600;
+var money2                    = 11000;
+var pull2                     = money2 - (protein + muscle_training_equipment + protein_var);
 
 console.log(pull2);
 
-//Eさんは１つ400円のシュークリームを6個、１つ500円のクッキーシューを8個、1つ300円のティラミスを9個それぞれ購入しました。
-//Eさんはそれぞれ何円ずつ購入したでしょうか？
+//Fさんはコンビニで1個180円のホットスナックを2つと240円のコーヒーを2杯、320円のスイーツを3つ購入しました。
+//Fさんはそれぞれ何円ずつ購入したでしょうか？
 
-var cream_puff  = 400 * 6;
-var cookie_shoe = 500 * 8;
-var Tiramisu    = 300 * 9;
+var hotsnack = 180 * 2;
+var coffee   = 240 * 2;
+var sweets   = 320 * 3;
 
-console.log(cream_puff);
-console.log(cookie_shoe);
-console.log(Tiramisu);
+console.log(hotsnack);
+console.log(coffee);
+console.log(sweets);
 
-//Fさんは1つ240円のヨーグルトを3個、1つ280円のヨーグルトを5個、1つ200円のヨーグルトを8個購入しました。
-//Fさんはそれぞれ何円分購入したでしょうか？
+//Gさんは1箱1050円のカステラを2箱と1箱1150円の抹茶カステラを3箱購入しました。
+//Gさんはそれぞれ何円ずつ購入したでしょうか？
 
-var yogurt1 = 240 * 3;
-var yogurt2 = 280 * 5;
-var yogurt3 = 200 * 8;
+var Castella        = 1050 * 2;
+var Matcha_castella = 1150 * 3;
 
-console.log(yogurt1);
-console.log(yogurt2);
-console.log(yogurt3);
+console.log(Castella);
+console.log(Matcha_castella);
 
-//Gさんは50個の手帳と52個のマーカーペン、56個の付箋を6人で分ける事にしました。
-//余りはいくつずつになるでしょうか？
+//Hさんは、1袋50枚入りのハガキと1袋46枚入りのハガキを9人に分ける事にしました。
+//そうするといくつずつ余るでしょうか？
 
-var pocket_book = 50;
-var marker_pen  = 52;
-var sticky_note = 56;
-var people      =  6;
-var remainder1  = pocket_book % people;
-var remainder2  = marker_pen  % people;
-var remainder3  = sticky_note % people;
+var postcard1 = 50;
+var postcard2 = 46;
+var people    =  9;
+var remainder1 = postcard1 % people;
+var remainder2 = postcard2 % people;
 
 console.log(remainder1);
 console.log(remainder2);
-console.log(remainder3);
 
-//Hさんはお年玉の10000円と20000円を1日1000円で何日使えるか計算することにしました。
-//すると何日分使えるでしょうか？
+//Iさんは1箱60個入りのマーカーペンと1箱50個入りの暗記ペンとシートを2箱でそれを20人で分ける事にしました。
+//そうするといくつずつ分けられるでしょうか？
 
-var New_Year_gift1 = 10000;
-var New_Year_gift2 = 20000;
-var day            =  1000;
-var divite1        = New_Year_gift1 / day;
-var divite2        = New_Year_gift2 / day;
+var marker_pen                 =     60;
+var memorization_pen_and_sheet = 50 * 2;
+var people2                    =     20;
+var divite1                    = marker_pen / people2;
+var divite2                    = memorization_pen_and_sheet / people2;
 
 console.log(divite1);
 console.log(divite2);
